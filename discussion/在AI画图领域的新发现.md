@@ -1,5 +1,16 @@
 # 在AI画图领域的新发现 - Stable Diffusion（SD）
 
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [在AI画图领域的新发现 - Stable Diffusion（SD）](#在ai画图领域的新发现---stable-diffusionsd)
+  - [SD的运行原理](#sd的运行原理)
+  - [术语学习](#术语学习)
+  - [采样器](#采样器)
+
+<!-- /code_chunk_output -->
+
 ## SD的运行原理
 
 Stable Diffusion（SD）是一个用于生成图像的深度学习模型。其运行原理如下：
