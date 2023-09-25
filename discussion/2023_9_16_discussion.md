@@ -14,18 +14,21 @@
 根据FaceChain的README文件了解到其运行逻辑如图a
 ![图a](2023_9_16.jpg)
 ## 目前需要学习的内容
-Python、PyTorch、（ TensorFlow  ）
+### Python、PyTorch、（ TensorFlow  ）
 括号内为可能需要学习的内容（之后同理）
 主要原因在于Python、PyTorch是业界常用的AI模型开发的语言和框架；TensorFlow是FaceChain中用到的框架，如果要使用FaceChain的话，应该需要学习这个框架。
 其中Python应该是最需要细致学习的。PyTorch和TensorFlow不需要学得特别深，会用即可，原因是这两个本身只是AI开发的框架，对其内核不需要太多理解即可上手使用，其次这两个学习成本应该不低，会比较麻烦。
-## AI领域相关术语和理论
+### AI领域相关术语和理论
 看过FaceChain之后发现，其中涉及到很多AI领域的专业术语和理论，需要研究一段时间。
 这对未来寻找更好用的模型等很有帮助（对于计算机专业的话应该是必须的吧）
-## Git
+### Git
 作为团队共同开发的项目，开发时需要引用Git作为版本管理工具，同时需要用GitHub（或者Gitee、Gitlab等）来作为代码托管平台从而实现多人协作。
 不过Git常用的命令就那几个上传一类的add,commit,push，同步下载一类的fetch,pull,clone等，所以没必要学得太深，了解几个命令的用途和用法，以及Git的相关定义即可。在实操过程中，很可能就主要使VS Code对Git做的相关UI了。
-## Docker,Linux
+### Docker,Linux
 大模型不可能挂到本地运行，只能把它部署在服务器上，部署过程中需要用到Linux和Docker等知识
+### Markdown,LaTeX
+Markdown在日后进行交流讨论的时候不可避免的会用到，不过Markdown比较简单，最多一个小时就能上手操作了。
+LaTeX是论文排版工具，想要拿国家级奖项需要有专利和论文的加持，学习LaTex也是必要的。
 # 等待解决的问题
 ## 资源选择
 是否要用FaceChain，还有没有其他的简单的，功能丰富的模型；
