@@ -67,7 +67,7 @@ SD使用多种采样器来生成图像。以下是SD 1.6版本中的一些采样
   - UniPC
   - Restart
 
-在以上30种采样器中，DPM系列最为复杂，有两个版本，以DPM、DPM++开头的都是改良版，DPM2开头的是第二代。SDE表示“随机微分方程”算法，这个算法效果更好，但计算时间较长。但是用时较长，其它采样器直接参考[视频](https://player.bilibili.com/player.html?bvid=BV1FN411i7sB&autoplay=false)
+在以上30种采样器中，DPM系列最为复杂，有两个版本，以DPM、DPM++开头的都是改良版，DPM2开头的是第二代。SDE表示“随机微分方程”算法，这个算法效果更好，但计算时间较长。其它采样器直接参考[视频](https://player.bilibili.com/player.html?bvid=BV1FN411i7sB&autoplay=false)
 
 最终，根据速度和效果优先的原则，可以选择以下几个可用的采样器：
 
