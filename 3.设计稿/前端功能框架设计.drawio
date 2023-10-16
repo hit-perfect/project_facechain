@@ -1,0 +1,40 @@
+<mxfile host="Electron" modified="2023-10-15T15:47:44.385Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="6xRyJSS-sKsfTSWuHuT5" version="22.0.2" type="device">
+  <diagram name="第 1 页" id="phZu7aXWhsZl9Tb5U_Hm">
+    <mxGraphModel dx="2058" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5_JrIfiCUXDxMl18GAyM-1" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=default;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="1320" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="5_JrIfiCUXDxMl18GAyM-2" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;whiteSpace=wrap;" parent="5_JrIfiCUXDxMl18GAyM-1" vertex="1">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5_JrIfiCUXDxMl18GAyM-3" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" parent="5_JrIfiCUXDxMl18GAyM-1" vertex="1">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5_JrIfiCUXDxMl18GAyM-4" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;startSize=70;labelBackgroundColor=none;fillColor=#4D4D4D;strokeColor=#52099C;fontColor=#FAFAFA;swimlaneFillColor=none;" parent="5_JrIfiCUXDxMl18GAyM-1" vertex="1">
+          <mxGeometry y="110" width="1320" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="5_JrIfiCUXDxMl18GAyM-5" value="" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=240;fillColor=#808080;" parent="5_JrIfiCUXDxMl18GAyM-4" vertex="1">
+          <mxGeometry y="70" width="1320" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="5_JrIfiCUXDxMl18GAyM-6" value="Label" style="label;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png;rounded=0;glass=0;shadow=0;fillColor=none;strokeColor=none;fontColor=#ffffff;fontSize=16;align=left;labelBorderColor=none;" parent="5_JrIfiCUXDxMl18GAyM-5" vertex="1">
+          <mxGeometry x="10" y="10" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5_JrIfiCUXDxMl18GAyM-7" value="Label" style="label;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png;rounded=0;glass=0;shadow=0;fillColor=none;strokeColor=none;fontColor=#ffffff;fontSize=16;align=left;labelBorderColor=none;" parent="5_JrIfiCUXDxMl18GAyM-5" vertex="1">
+          <mxGeometry x="30" y="80" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5_JrIfiCUXDxMl18GAyM-8" value="Label" style="label;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png;rounded=0;glass=0;shadow=0;fillColor=none;strokeColor=none;fontColor=#ffffff;fontSize=16;align=left;labelBorderColor=none;" parent="5_JrIfiCUXDxMl18GAyM-5" vertex="1">
+          <mxGeometry x="30" y="150" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5_JrIfiCUXDxMl18GAyM-9" value="Label" style="label;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png;rounded=0;glass=0;shadow=0;fillColor=none;strokeColor=none;fontColor=#ffffff;fontSize=16;align=left;labelBorderColor=none;" parent="5_JrIfiCUXDxMl18GAyM-5" vertex="1">
+          <mxGeometry x="10" y="220" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5_JrIfiCUXDxMl18GAyM-10" value="Label" style="label;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png;rounded=0;glass=0;shadow=0;fillColor=none;strokeColor=none;fontColor=#ffffff;fontSize=16;align=left;labelBorderColor=none;" parent="5_JrIfiCUXDxMl18GAyM-5" vertex="1">
+          <mxGeometry x="10" y="290" width="220" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
