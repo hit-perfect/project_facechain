@@ -1,0 +1,7 @@
+create table Follows(
+  Fan_ID int comment '外键，关注者ID',
+  Idol_ID int comment '外键，被关注者ID',
+  SendTime datetime not null comment '点赞时间，精确到毫秒',
+  constraint FK_Fan_ID_Follows foreign key (Fan_ID) references UserInfo(UID),
+  constraint FK_Idol_ID_Follows foreign key (Idol_ID) references UserInfo(UID)
+) comment '关注记录';
