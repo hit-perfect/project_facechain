@@ -1,9 +1,0 @@
-create table Commits(
-  CID int primary key comment 'ID,评论的唯一标识',
-  PID int comment '外键，对应帖子的ID',
-  UID int comment '外键，发布评论用户的ID',
-  Body text not null comment '评论文本的内容',
-  SendTime datetime not null comment '帖子上传时间，精确到毫秒',
-  constraint FK_PID_Commits foreign key (PID) references Posts(PID),
-  constraint FK_UID_Commits foreign key (UID) references UserInfo(UID)
-) comment '评论表';
