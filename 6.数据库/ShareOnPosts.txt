@@ -1,7 +1,0 @@
-create table ShareOnPosts(
-  UID int comment '外键，分享帖子的用户',
-  PID int comment '外键，被分享的帖子',
-  SendTime datetime not null comment '分享时间，精确到毫秒',
-  constraint FK_UID_ShareOnPosts foreign key (UID) references UserInfo(UID),
-  constraint FK_PID_ShareOnPosts foreign key (PID) references Posts(PID)
-) comment '帖子分享记录表';
