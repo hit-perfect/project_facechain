@@ -1,8 +1,0 @@
-create table Posts(
-  PID int primary key comment 'ID,帖子的唯一标识',
-  UID int comment '外键，用户的ID',
-  Title varchar(255) not null unique comment '帖子标题,非空且唯一',
-  Body text not null comment '帖子正文',
-  SendTime datetime not null comment '帖子上传时间，精确到毫秒',
-  constraint FK_UID_Posts foreign key (UID) references UserInfo(UID)
-) comment '贴子表';
