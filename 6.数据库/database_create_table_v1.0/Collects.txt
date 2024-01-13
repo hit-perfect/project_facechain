@@ -1,0 +1,7 @@
+create table Collects(
+  UID int comment '外键，收藏的用户',
+  PID int comment '外键，收藏的帖子',
+  SendTime datetime not null comment '点赞时间，精确到毫秒',
+  constraint FK_UID_Collects foreign key (UID) references UserInfo(UID),
+  constraint FK_PID_Collects foreign key (PID) references Posts(PID)
+) comment '收藏记录表';
