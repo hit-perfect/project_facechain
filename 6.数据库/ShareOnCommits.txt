@@ -1,7 +1,0 @@
-create table ShareOnCommits(
-  UID int comment '外键，分享评论的用户',
-  CID int comment '外键，被分享的评论',
-  SendTime datetime not null comment '分享时间，精确到毫秒',
-  constraint FK_UID_ShareOnCommits foreign key (UID) references UserInfo(UID),
-  constraint FK_CID_ShareOnCommits foreign key (CID) references Commits(CID)
-) comment '评论分享记录表';
