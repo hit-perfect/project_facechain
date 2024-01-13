@@ -1,7 +1,0 @@
-create table LikesOnCommits(
-  UID int comment '外键，点赞的用户',
-  CID int comment '外键，点赞的评论',
-  SendTime datetime not null comment '点赞时间，精确到毫秒',
-  constraint FK_UID_LikesOnCommits foreign key (UID) references UserInfo(UID),
-  constraint FK_CID_LikesOnCommits foreign key (CID) references Commits(CID)
-) comment '评论点赞记录表';
